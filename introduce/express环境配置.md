@@ -39,7 +39,7 @@ $ epress --help
     $  vim index.ejs
   ```
   
-  查看视图层indexejs，ejs标签<%=title%> 可渲染路由文件index.js的render的title属性  
+  查看视图层index.ejs，ejs标签<%=title%> 可渲染路由文件index.js的render的title属性  
   
 ``` 
     <!DOCTYPE html>
