@@ -48,6 +48,7 @@
       * [查询指定用户的微博](www.baidu.com)
       * [partial片段视图](www.baidu.com)
       * [index.ejs user.ejs post.ejs](www.baidu.com)
+      * [md5加密与AES对称加密](www.baidu.com)
  * 遇到的问题
  * 项目的收获 
     
