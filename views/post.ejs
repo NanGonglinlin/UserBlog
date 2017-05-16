@@ -1,0 +1,5 @@
+<% for(var i=0;i<posts.length;i++){ %>
+	<div style="font-size:30px;border-bottom:solid 1px black;"><a style="color:#000" href="/u/<%=posts[i].email%>"><%=posts[i].email%></a></div>
+	<p>时间:<i><%=posts[i].time%></i></p>
+	<p>内容:<%=posts[i].post%></p>
+<% } %>

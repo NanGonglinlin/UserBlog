@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link  rel="stylesheet" href="/stylesheets/regstyle.css">
+    <link  rel="stylesheet" href="/stylesheets/extra.css">
+    <link rel="stylesheet" href="/stylesheets/responsive-nav.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/loginstyle.css">
+    <script src="/javascripts/responsive-nav.js"></script>
+  </head>
+  <body>
+
+    <div role="navigation" id="foo" class="nav-collapse">
+      <ul>
+        <li class="active"><a href="/">首页</a></li>
+       <% if(!user){ %>
+        <li><a href="/login">登录</a></li>
+        <li><a href="/reg">注册</a></li>
+       <% }else{ %>
+		<li><a href="/">用户: <%-user.email%></a></li>
+        <li><a href="/logout">退出</a></li>
+		<li><a href="/reg">再次注册</a><li>
+	<% } %> 
+      </ul>
+    </div>
+
+    <div role="main" class="main">
+     <%-message%>
+      <a href="#nav" class="nav-toggle">Menu</a>
+      <%-body%>
+    </div>
+	
+    <script>
+	 // responsiveNav（parameter:id,{customToggle:class}）
+     var navigation = responsiveNav("foo", {customToggle: ".nav-toggle"});
+    </script>
+  </body>
+</html>
