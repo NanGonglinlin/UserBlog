@@ -12,7 +12,7 @@
 
 * 开发环境搭建 
     * node.js 简单介绍与环境配置
-      * [node与jQuery、js的区别](www.baidu.com)
+      * [node与jQuery、js的区别](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/Centos%20%E5%AE%89%E8%A3%85%20mongoDB.md)
       * [node 如何完成一次post请求](www.baidu.com)
       * [node 单线程、非阻塞、事件队列](www.baidu.com)
       * [node环境的配置、npm、nrm](www.baidu.com)
