@@ -12,11 +12,11 @@ $ mv mongodb-linux-i686-2.6.7 mongodb
 ```
 
 ``` Bash
-$ mkdir -p  ./log  //生成日志存放位置
+$ mkdir -p  ./log  #生成日志存放位置
 ```
 
 ``` Bash
-$ mkdir -p  ./db  //数据文件存放位置
+$ mkdir -p  ./db  #数据文件存放位置
 ```
 
 ``` Bash
@@ -24,7 +24,7 @@ $ cd log
 ```
 
 ``` Bash
-$ touch mongodb.log  //生成日志存放文件
+$ touch mongodb.log  #生成日志存放文件
 ```
 
 ``` Bash
@@ -36,7 +36,7 @@ $ cd bin
 ```
 
 ``` Bash
-$ vi mongodb.conf      //配置参数
+$ vi mongodb.conf      #配置参数
 ```
 
 ``` Bash
