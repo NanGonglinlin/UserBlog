@@ -5,11 +5,11 @@
   //http.js
   var http = require("http");
   function start(){
-    function onRequest(request, response){
+    function onRequest(req, res){
       console.log("Request received.");
-      response.writeHead(200,{"Content-Type":"text/plain"});
-      response.write("Hello World"); // 访问http://host:port 页面会显示hello world
-      response.end();
+      res.writeHead(200,{"Content-Type":"text/plain"});
+      res.write("Hello World"); // 访问http://host:port 页面会显示hello world
+      res.end();
     }
 
     http.createServer(onRequest).listen(8888);
