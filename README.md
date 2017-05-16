@@ -32,7 +32,7 @@
     * [项目 tree](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/%E9%A1%B9%E7%9B%AE%20tree.md)
     * 前端页面设计
       * [express中间件的设定](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/express%E4%B8%AD%E9%97%B4%E4%BB%B6%E7%9A%84%E8%AE%BE%E5%AE%9A.md)
-      * [express路由控制](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/express%E8%B7%AF%E7%94%B1%E6%8E%A7%E5%88%B6.md)
+      * [express路由规划](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/express%E8%B7%AF%E7%94%B1%E8%A7%84%E5%88%92.md)
       * [ejs标签](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/ejs%E6%A0%87%E7%AD%BE.md)
       * [layout.ejs、index.ejs、reg.ejs、login.ejs、msg.ejs](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/layout.ejs%E3%80%81index.ejs%E3%80%81reg.ejs%E3%80%81login.ejs%E3%80%81msg.ejs.md)
     * 后端业务逻辑
