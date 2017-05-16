@@ -1,7 +1,7 @@
 ## md5加密算法
 ***
-将密码进行md5加密，md5学名叫单项散列算法，是输出的128位的信息（数字指纹，防止修改，防止看明文），是不可逆的，但是简单的密码加密有规律性，可暴力破解，至于原理是什么，我也不是很了解，只是会使用而已。  
-MD5算法原理：http://blog.csdn.net/forgotaboutgirl/article/details/7258109    
+将密码进行md5加密，md5学名叫单项散列算法，是输出的128位的信息（数字指纹，防止修改，防止看明文），是不可逆的，但是简单的密码加密有规律性，可暴力破解，至于原理是什么，我也不是很了解，只是会使用而已  
+MD5算法原理：http://blog.csdn.net/forgotaboutgirl/article/details/7258109   
 以下是加密  
 ``` javascript
     var crypto = require("crypto");
