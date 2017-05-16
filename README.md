@@ -12,7 +12,7 @@
 
 * 开发环境搭建 
     * node.js 简单介绍与环境配置
-      * [node与jQuery、js的区别](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/Centos%20%E5%AE%89%E8%A3%85%20mongoDB.md)
+      * [node与jQuery、js的区别](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/node%E4%B8%8EjQuery%E3%80%81js%E7%9A%84%E5%8C%BA%E5%88%AB.md)
       * [node 如何完成一次post请求](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/node%20%E5%A6%82%E4%BD%95%E5%AE%8C%E6%88%90%E4%B8%80%E6%AC%A1post%E8%AF%B7%E6%B1%82.md)
       * [node 单线程、非阻塞、事件队列](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/node%20%E5%8D%95%E7%BA%BF%E7%A8%8B%E3%80%81%E9%9D%9E%E9%98%BB%E5%A1%9E%E3%80%81%E4%BA%8B%E4%BB%B6%E9%98%9F%E5%88%97.md)
       * [node环境的配置、npm、nrm](https://github.com/dirkhe1051931999/UserBlog/blob/master/introduce/node%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E3%80%81npm%E3%80%81nrm.md)
